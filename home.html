@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home Automation</title>
+	<style>
+		body {
+			background-color: #f2f2f2;
+			font-family: Arial, sans-serif;
+		}
+		.container {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+		}
+		h1 {
+			font-size: 3rem;
+			margin-bottom: 1rem;
+		}
+		button {
+			background-color: #FF6700;
+			color: #fff;
+			font-size: 2rem;
+			font-weight: bold;
+			padding: 1rem 2rem;
+			border: none;
+			border-radius: 2rem;
+			cursor: pointer;
+			margin: 0.5rem;
+			transition: background-color 0.3s ease;
+		}
+		button:hover {
+			background-color: #FF8E3C;
+		}
+		.top-buttons {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-bottom: 2rem;
+		}
+		.bottom-buttons {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+            
+		}
+
+		
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Home Automation</h1>
+		<div class="top-buttons">
+			<a href="rooms.html"><button>ROOMS</button></a>
+			<button>CURTAINS</button>
+			<a href="lights.php"><button>LIGHTING</button></a>
+		</div>
+		<div class="bottom-buttons">
+			<button>CAMERA</button>
+			<a href="aircond.php"><button>AIR CONDITION</button></a>
+			<button>DEVICE LIST</button>
+		</div>
+	</div>
+
+	<footer style="background-color: black; width: 100%; height: 100px; position: absolute; bottom: 0;">
+		<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+		  <a href="index.html" style="color: white; text-decoration: none;">
+			<button style="background-color: black; border: 2px solid white; color: white; padding: 10px 20px; border-radius: 5px;">
+			  Home
+			</button>
+		  </a>
+		</div>
+	  </footer>
+</body>
+</html>

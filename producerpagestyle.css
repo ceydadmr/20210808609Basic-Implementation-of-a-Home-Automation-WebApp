@@ -1,0 +1,143 @@
+
+body {
+	margin: 0;
+	font-family: "Helvetica Neue", sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+}
+
+
+h1 {
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+	margin: 50px 0;
+}
+
+
+form {
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 30px;
+	background-color: #f5f5f5;
+	border-radius: 10px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+
+input[type="text"] {
+	width: 100%;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+
+
+input[type="submit"] {
+	background-color: #ff6700;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	cursor: pointer;
+	transition: background-color 0.2s ease-in-out;
+}
+
+input[type="submit"]:hover {
+	background-color: #e65c00;
+}
+
+
+h2 {
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+p {
+	font-size: 16px;
+	margin-bottom: 10px;
+	line-height: 1.5;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.dropdown-content button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #f5f5f5;
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content button:hover {
+  background-color: #e6e6e6;
+}
+
+.dropdown-content button.selected {
+  background-color: #ff6700;
+  color: #fff;
+}
+
+.dropdown-content button[value="close"]::before {
+  content: "-";
+  margin-right: 5px;
+}
+
+
+select {
+	width: 100%;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+	margin-bottom: 20px;
+	font-size: 16px;
+	appearance: none;
+	-webkit-appearance: none;
+	background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#333" d="M456.6 148.6c-7.5-7.5-19.8-7.5-27.3 0L256 329.8 82.7 148.6c-7.5-7.5-19.8-7.5-27.3 0 -7.5 7.5-7.5 19.8 0 27.3l185.1 185.1c3.8 3.8 8.3 5.7 13.7 5.7s9.9-1.9 13.7-5.7l185.1-185.1C464.1 168.4 464.1 156.1 456.6 148.6z"/></svg>');
+	background-repeat: no-repeat;
+	background-position: right 10px top 50%;
+	background-size: 16px;
+  }
+
+
+
+
+
+
+
+
+
+  

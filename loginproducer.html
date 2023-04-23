@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Producer Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="login-box">
+		<h1>Producer Login</h1>
+		<form method="post" action="login2.php">
+			<label for="username">Username:</label>
+			<input type="text" name="username" required>
+			<label for="password">Password:</label>
+			<input type="password" name="password" required>
+			<div class="buttons">
+				<input type="submit" name="login" value="Login">
+                
+			</div>
+		</form>
+		<?php if(isset($_GET['error'])) { ?>
+			<p class="error"><?php echo $_GET['error']; ?></p>
+		<?php } ?>
+	</div>
+</body>
+</html>

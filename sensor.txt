@@ -1,0 +1,17 @@
+Light1,Open,10
+Light2,Open,5
+Light3,Close,-
+Light4,Open,7
+aircondition,Open,24
+Aircondition,Open,35
+Aircondition,Open,24
+Aircondition,Open,21
+Aircondition,Close,
+Light1,Close,
+Light5,Open,4
+Light2,on,7
+Light2,Open,3
+Light3,Open,4
+Aircondition,Open,32
+Light2,Close,
+Aircondition,Open,22

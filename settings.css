@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333333;
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #F5F5F5;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  select,
+  input[type="number"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 4 5' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2 0L0 2h4zm0 5L0 3h4z' fill='%23E0E0E0'/%3E%3C/svg%3E");
+    background-position: right 10px center;
+    background-repeat: no-repeat;
+    background-size: auto 60%;
+    padding-right: 40px;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #FF6700;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 0px #D35400;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #FF8C4B;
+  }
+  
+  a button {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #FF6700;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 0px #D35400;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  a button:hover {
+    background-color: #FF8C4B;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333333;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
